@@ -7,6 +7,8 @@
 배운내용
 
 (최신내용 반드시 위로)
+aler, console 차이 : 접속시 출력 유무
+stage change 올린 것만 커밋
 
 <table>
 </table>
