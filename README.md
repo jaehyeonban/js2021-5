@@ -1,5 +1,72 @@
 # 반재현 [201740217]
 
+
+
+## [5월 4일]
+> 오늘 배운 내용 요약 <br />
+
+(표준 내장 객체)
+
+1. 기본 자료형과 객체 자료형의 차이
+- 자바 스크립트는 다양한 객체를 제공
+- 통합 개발 환경에서 자동 완성 기능
+- 기본 자료형의 속성 또는 메소드를 사용할 때 기본 자료형이 자동으로 객체로 변환이 됨. 즉, 기본 자료형과 객체 자료형 모두 속성과 메소드를 사용함
+- 차이점 : 기본 자료형은 객체가 아니므로 속성과 메소드를 추가할 수 없음
+
+2. Number 객체
+- 자바스크립트에서 숫자를 표현할 때 사용
+- Number 객체 생성
+- 메소드
+toExponential() : 숫자를 지수 표시로 나타낸 문자열을 리턴합니다.
+toFixed() : 숫자를 고정소수점 표시로 나타낸 문자열을 리턴합니다.
+toPrecision() : 숫자를 길이에 따라 지수 표시 또는 고정소수점 표시로 나타낸 문자열을 리턴합니다.
+- 생성자 함수의 속성
+MAX_VALUE : 자바스크립트의 숫자가 나타낼 수 있는 최대 숫자
+MIN_VALUE : 자바스크립트의 숫자가 나타낼 수 있는 최소 숫자
+NaN :  자바스크립트의 숫자로 나타낼 수 없는 숫자
+POSITIVE_INFINITY : 양의 무한대 숫자
+NEGATIVE_INFINITY : 음의 무한대 숫자
+
+3. String 객체
+- 속성과 메소드
+length : 문자열의 길이를 나타냅니다.
+charAt(position) : position에 위치하는 문자를 리턴합니다.
+charCodeAt(position) : position에 위치하는 문자의 유니코드 번호를 리턴합니다.
+concat(args) : 매개 변수로 입력한 문자열을 이어 리턴합니다.
+indexOf(serchString,position) : 앞에서부터 일치하는 문자열의 위치를 리턴합니다.
+lastIndexOf(serchString,position) : 뒤에서부터 일치하는 문자열의 위치를 리턴합니다.
+match(regExp) : 문자열 안에 regExp가 있는지 확인합니다.
+replace(regExp, replacement) : regExp를 replacement로 바꾼 후 리턴합니다.
+search(regExp) : regExp와 일치하는 문자열의 위치를 리턴합니다.
+slice(start, end) : 특정 위치의 문자열을 추출해 리턴합니다.
+split(separator, limit) : separator로 문자열을 잘라 배열을 리턴합니다.
+substr(start, count) : start부터 count만큼 문자열을 잘라서 리턴합니다.
+substring(start, end) : start부터 end까지 문자열을 잘라서 리턴합니다.
+toLowerCase() : 문자열을 소문자로 바꾸어 리턴합니다.
+toUpperCase() : 문자열을 대문자로 바꾸어 리턴합니다.
+
+- 메소드 활용
+indexOf() 메소드 : 특정 문자열이 있는지 확인, 위치를 리턴함
+문자열이 포함되어 있지 않을 때는 -1을 리턴
+- split() 메소드를 사용하면 특정한 기호를 기반으로 문자열을 분해함
+
+4. Date 객체
+new Date() : 현재 시간으로 Date 객체를 생성합니다.
+new Date(<유닉스 타임>) : 유닉스 타임(1970년 1월 1일 00시 00분 00초부터 경과한 밀리초)으로 Date 객체를 생성합니다.
+new Date(<시간 문자열>) : 문자열로 Date 객체를 생성합니다.
+new Date(<년>,<월-1>,<일>,<시간>,<분>,<초>,<밀리초>) : 시간 요소(년, 월-1,일,시간,분,초,밀리초)를 기반으로 Date 객체를 생성합니다.
+
+5. Array 객체의 기본 메소드
+- 대부분 파괴적 메소드로 자기 자신을 변경
+- 배열 정렬 - sort() 메소드 : 배열 정렬
+
+
+
+
+
+
+
+
 ## [4월 27일]
 > 오늘 배운 내용 요약 <br />
 
